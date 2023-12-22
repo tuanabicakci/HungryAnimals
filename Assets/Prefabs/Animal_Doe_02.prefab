@@ -862,7 +862,6 @@ GameObject:
   - component: {fileID: 927028806169751024}
   - component: {fileID: 3436051975018386890}
   - component: {fileID: 3832792218963236384}
-  - component: {fileID: 4394415089007587542}
   m_Layer: 0
   m_Name: Animal_Doe_02
   m_TagString: Untagged
@@ -941,20 +940,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ee768e077ae7d409e26e29345e6e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4394415089007587542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9086802868689702789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5e62af2d70d68745bf00c68c1f728d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
-  playerPosition: {x: 0, y: 0, z: 0}
-  projectilePrefab: {fileID: 0}
