@@ -543,10 +543,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2109286500}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
 --- !u!1 &992285705
 GameObject:
@@ -729,28 +726,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2109286499 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
-  m_PrefabInstance: {fileID: 541540335}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2109286500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109286499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5e62af2d70d68745bf00c68c1f728d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
-  playerPosition: {x: 0, y: 0, z: 0}
-  projectilePrefab: {fileID: 8698044101808469654, guid: 6cc8edbabcf5d0e44aaa9eec6f7a678a, type: 3}
 --- !u!1001 &30353409961023677
 PrefabInstance:
   m_ObjectHideFlags: 0
